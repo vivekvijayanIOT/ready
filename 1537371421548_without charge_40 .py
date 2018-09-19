@@ -375,7 +375,7 @@ N36,N37,N38,N39,N40=node(charg[36],250,250),node(charg[37],130,350),node(charg[3
 #endnode
 N41=node(400,400,400)
 
-n=1
+n=0
 
 nodexpos=xp
 nodeypos=yp
@@ -1140,6 +1140,7 @@ def backward(y,r):
 	l.clear()
 def whennetworkstop():
 	print('''*** Node dying time ***''')
+	e=500
 	if N1.check!=0:
 		print( ' Node 1 dies at %s sec'%round(e-((N1.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N2.check!=0:
