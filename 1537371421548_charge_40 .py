@@ -1140,87 +1140,87 @@ def backward(y,r):
 	l.clear()
 def whennetworkstop():
 	print('''*** Node dying time ***''')
-	e=500
+	e=(Mobile_node_radius+(Mobile_node_radius*2))-100
 	if N1.check!=0:
-		print( ' Node 1 dies at %s sec'%round(e-((N1.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 1 dies at %s sec'%round(e+((N1.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N2.check!=0:
-		print(' Node 2 dies at %s sec'%round(e-((N2.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print(' Node 2 dies at %s sec'%round(e+((N2.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N3.check!=0:
-		print(' Node 3 dies at %s sec'%round(e-((N3.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print(' Node 3 dies at %s sec'%round(e+((N3.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N4.check!=0:
-		print( ' Node 4 dies at %s sec'%round(e-((N4.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 4 dies at %s sec'%round(e+((N4.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N5.check!=0:
-		print( ' Node 5 dies at %s sec'%round(e-((N5.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 5 dies at %s sec'%round(e+((N5.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N6.check!=0:
-		print( ' Node 6 dies at %s sec'%round(e-((N6.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 6 dies at %s sec'%round(e+((N6.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N7.check!=0:
-		print( ' Node 7 dies at %s sec'%round(e-((N7.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 7 dies at %s sec'%round(e+((N7.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N8.check!=0:
-		print( ' Node 8 dies at %s sec'%round(e-((N8.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 8 dies at %s sec'%round(e+((N8.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N9.check!=0:
-		print( ' Node 9 dies at %s sec'%round(e-((N9.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 9 dies at %s sec'%round(e+((N9.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N10.check!=0:
-		print( ' Node 10 dies at %s sec'%round(e-((N10.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 10 dies at %s sec'%round(e+((N10.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N11.check!=0:
-		print( ' Node 11 dies at %s sec'%round(e-((N11.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 11 dies at %s sec'%round(e+((N11.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N12.check!=0:
-		print( ' Node 12 dies at %s sec'%round(e-((N12.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 12 dies at %s sec'%round(e+((N12.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N13.check!=0:
-		print( ' Node 13 dies at %s sec'%round(e-((N13.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 13 dies at %s sec'%round(e+((N13.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N14.check!=0:
-		print( ' Node 14 dies at %s sec'%round(e-((N14.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 14 dies at %s sec'%round(e+((N14.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N15.check!=0:
-		print( ' Node 15 dies at %s sec'%round(e-((N15.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 15 dies at %s sec'%round(e+((N15.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N16.check!=0:
-		print( ' Node 16 dies at %s sec'%round(e-((N16.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 16 dies at %s sec'%round(e+((N16.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N17.check!=0:
-		print( ' Node 17 dies at %s sec'%round(e-((N17.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 17 dies at %s sec'%round(e+((N17.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N18.check!=0:
-		print( ' Node 18 dies at %s sec'%round(e-((N18.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 18 dies at %s sec'%round(e+((N18.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N19.check!=0:
-		print( ' Node 19 dies at %s sec'%round(e-((N19.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 19 dies at %s sec'%round(e+((N19.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N20.check!=0:
-		print( ' Node 20 dies at %s sec'%round(e-((N20.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 20 dies at %s sec'%round(e+((N20.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N21.check!=0:
-		print( ' Node 21 dies at %s sec'%round(e-((N21.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 21 dies at %s sec'%round(e+((N21.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N22.check!=0:
-		print(' Node 22 dies at %s sec'%round(e-((N22.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print(' Node 22 dies at %s sec'%round(e+((N22.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N23.check!=0:
-		print(' Node 23 dies at %s sec'%round(e-((N23.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print(' Node 23 dies at %s sec'%round(e+((N23.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N24.check!=0:
-		print( ' Node 24 dies at %s sec'%round(e-((N24.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 24 dies at %s sec'%round(e+((N24.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N25.check!=0:
-		print( ' Node 25 dies at %s sec'%round(e-((N25.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 25 dies at %s sec'%round(e+((N25.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N26.check!=0:
-		print( ' Node 26 dies at %s sec'%round(e-((N26.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 26 dies at %s sec'%round(e+((N26.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N27.check!=0:
-		print( ' Node 27 dies at %s sec'%round(e-((N27.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 27 dies at %s sec'%round(e+((N27.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N28.check!=0:
-		print( ' Node 28 dies at %s sec'%round(e-((N28.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 28 dies at %s sec'%round(e+((N28.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N29.check!=0:
-		print( ' Node 29 dies at %s sec'%round(e-((N29.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 29 dies at %s sec'%round(e+((N29.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N30.check!=0:
-		print( ' Node 30 dies at %s sec'%round(e-((N30.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 30 dies at %s sec'%round(e+((N30.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N31.check!=0:
-		print( ' Node 31 dies at %s sec'%round(e-((N31.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 31 dies at %s sec'%round(e+((N31.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N32.check!=0:
-		print( ' Node 32 dies at %s sec'%round(e-((N32.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 32 dies at %s sec'%round(e+((N32.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N33.check!=0:
-		print( ' Node 33 dies at %s sec'%round(e-((N33.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 33 dies at %s sec'%round(e+((N33.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N34.check!=0:
-		print( ' Node 34 dies at %s sec'%round(e-((N34.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 34 dies at %s sec'%round(e+((N34.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N35.check!=0:
-		print( ' Node 35 dies at %s sec'%round(e-((N35.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 35 dies at %s sec'%round(e+((N35.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N36.check!=0:
-		print( ' Node 36 dies at %s sec'%round(e-((N36.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 36 dies at %s sec'%round(e+((N36.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N37.check!=0:
-		print( ' Node 37 dies at %s sec'%round(e-((N37.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 37 dies at %s sec'%round(e+((N37.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N38.check!=0:
-		print( ' Node 38 dies at %s sec'%round(e-((N38.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 38 dies at %s sec'%round(e+((N38.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N39.check!=0:
-		print( ' Node 39 dies at %s sec'%round(e-((N39.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 39 dies at %s sec'%round(e+((N39.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N40.check!=0:
-		print( ' Node 40 dies at %s sec'%round(e-((N40.charge*2)+times-r+(Mobile_node_radius*0.4))))
+		print( ' Node 40 dies at %s sec'%round(e+((N40.charge*2)+times-r+(Mobile_node_radius*0.4))))
 # Execution starts
 print("**** Mobile node starts ****")
 forward(0,r)
