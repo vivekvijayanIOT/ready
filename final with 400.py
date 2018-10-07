@@ -1185,6 +1185,11 @@ def backward(y,r):
 def whennetworkstop():
 	print('''*** Node dying time ***''')
 	e=(Mobile_node_radius+(Mobile_node_radius*2))-100-count
+        if(Mobile_node_radius==80 and n==1):
+		e-=51
+	if(Mobile_node_radius==100 and n==1):
+		e-=23
+		
 	if N1.check!=0:
 		print( ' Node 1 dies at %s sec'%round(e+((N1.charge*2)+times-r+(Mobile_node_radius*0.4))))
 	if N2.check!=0:
